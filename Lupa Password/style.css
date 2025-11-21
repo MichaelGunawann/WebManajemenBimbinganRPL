@@ -39,7 +39,7 @@ nav {
   width: 100%;
   z-index: 100;
 
-  padding: 40px 26px 20px 48px; /* (top, right, bottom, left) */
+  padding: 40px 26px 20px 48px;
 
   display: flex;
   justify-content: space-between;
@@ -54,34 +54,7 @@ nav #left-icon {
   gap: 20px;
 }
 
-nav #left-icon #logo-unpar {
-  border: white;
-
-  /*drop shadow*/
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-
-  /* glass effect*/
-  /* 1. Latar belakang semi-transparan */
-  /* Di sini kita gunakan warna putih dengan 30% opacity */
-  background-color: rgba(255, 255, 255, 0.3);
-  /* 2. Ini adalah properti inti efek kaca */
-  /* Memburamkan latar belakang sejauh 10px */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Untuk kompatibilitas Safari */
-  /* 3. (Opsional) Border tipis untuk "tepi" kaca */
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 12px;
-
-  border-radius: 20px;
-  width: 233px;
-  height: 88px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+nav #left-icon #logo-unpar,
 nav #left-icon #logo-if {
   border: white;
 
@@ -91,29 +64,26 @@ nav #left-icon #logo-if {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 
   /* glass effect*/
-  /* 1. Latar belakang semi-transparan */
-  /* Di sini kita gunakan warna putih dengan 30% opacity */
   background-color: rgba(255, 255, 255, 0.3);
-  /* 2. Ini adalah properti inti efek kaca */
-  /* Memburamkan latar belakang sejauh 10px */
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Untuk kompatibilitas Safari */
-  /* 3. (Opsional) Border tipis untuk "tepi" kaca */
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
 
-  width: 268px;
+  width: 233px;
   height: 88px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Tidak ada perubahan pada 'main' */
+nav #left-icon #logo-if {
+  width: 268px;
+  height: 88px;
+}
+
 main {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   flex-direction: column;
   width: 532px;
   height: 389px;
@@ -124,14 +94,8 @@ main {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 
   /* glass effect*/
-  /* 1. Latar belakang semi-transparan */
-  /* Di sini kita gunakan warna putih dengan 30% opacity */
   background-color: rgba(255, 255, 255, 0.3);
-  /* 2. Ini adalah properti inti efek kaca */
-  /* Memburamkan latar belakang sejauh 10px */
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Untuk kompatibilitas Safari */
-  /* 3. (Opsional) Border tipis untuk "tepi" kaca */
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 29px;
 }
@@ -163,7 +127,6 @@ main form h2{
 main form #lupa-password{
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   color: white;
   width: 100%;
   gap: 5px;
@@ -182,7 +145,8 @@ main form #lupa-password input[type="text"]{
   border-radius: 5px;
 }
 
-main form button[type="button"]{
+main form button[type="button"],
+main form button[type="submit"]{
   width: 187px;
   height: 53px;
   display: flex;
@@ -200,30 +164,16 @@ main form button[type="button"]{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 
   /* glass effect*/
-  /* 1. Latar belakang semi-transparan */
-  /* Di sini kita gunakan warna putih dengan 30% opacity */
   background-color: rgba(255, 255, 255, 0.3);
-  /* 2. Ini adalah properti inti efek kaca */
-  /* Memburamkan latar belakang sejauh 10px */
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); /* Untuk kompatibilitas Safari */
-  /* 3. (Opsional) Border tipis untuk "tepi" kaca */
+  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
 }
 
 
 main form button[type="submit"]{
-  width: 187px;
-  height: 53px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;
   background-color: #004CBD;
-  color: white;
-  border: none;
-  font-size: 20px;
 }
 
 
