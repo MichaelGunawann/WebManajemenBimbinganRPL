@@ -121,7 +121,6 @@ main form h2 {
   white-space: nowrap;
   width: 100%;
   text-align: left;
-  /* font-size: 25pt; */
 }
 
 .input-group {
@@ -162,13 +161,6 @@ main form button {
 
   margin-bottom: 20px;
 }
-
-/* main form button[type="submit"] {
-  background-color: #004CBD95;
-  color: white;
-  backdrop-filter: none;
-  height: 25px;
-} */
 
 main form button:hover {
   transform: scale(1.02);
