@@ -107,7 +107,6 @@ body {
     'sans-serif' adalah font cadangan jika 'Gilroy' gagal dimuat.
   */
   font-family: 'Gilroy', sans-serif;
-  padding: 2rem;
   line-height: 1.6;
 }
 

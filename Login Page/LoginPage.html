@@ -10,10 +10,10 @@
 <body>
     <nav>
         <div class="nav-left">
-            <div class="glass-box">
+            <div class="glass-box" class="logoglass">
                 <img src="assets/FA - Logo Berwarna UNPAR - Horizontal - Wordmark Putih 1.png" alt="">
             </div>
-            <div class="glass-box">
+            <div class="glass-box" class="logoglass">
                 <img src="assets/Logo IF.png" alt="">
             </div>
         </div>
@@ -23,17 +23,17 @@
         </div>
     </nav>
     <main>
-        <form action="" class="glass-box">
+        <form action="" class="glass-box" id="loginForm">
             <h1>Welcome!</h1>
             <h2>Login</h2>
             <div class="input-group">
                 <label for="emai">Email</label>
-                <input type="text" name="input-email" placeholder="username@student.unpar.ac.id">
+                <input class="userInput" type="text" name="input-email" placeholder="username@student.unpar.ac.id">
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
-                <input type="password" name="input-pass" placeholder="Password">
-                <a href="">Lupa Password?</a>
+                <input class="userInput" type="password" name="input-pass" placeholder="Password">
+                <a id="forgotPassword" href="">Lupa Password?</a>
             </div>
             <button type="submit">Masuk</button>
         </form>
